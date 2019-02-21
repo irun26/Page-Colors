@@ -12,6 +12,7 @@
 		CBB24DB3221E0E4300081D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB24DB1221E0E4300081D98 /* Main.storyboard */; };
 		CBB24DB5221E0E4400081D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB24DB4221E0E4400081D98 /* Assets.xcassets */; };
 		CBB24DB8221E0E4400081D98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB24DB6221E0E4400081D98 /* LaunchScreen.storyboard */; };
+		CBB24DC0221E53A300081D98 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB24DBF221E53A300081D98 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CBB24DB4221E0E4400081D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB24DB7221E0E4400081D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBB24DB9221E0E4400081D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB24DBF221E53A300081D98 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CBB24DAD221E0E4300081D98 /* AppDelegate.swift */,
 				CBB24DAF221E0E4300081D98 /* ViewController.swift */,
+				CBB24DBF221E53A300081D98 /* YellowViewController.swift */,
 				CBB24DB1221E0E4300081D98 /* Main.storyboard */,
 				CBB24DB4221E0E4400081D98 /* Assets.xcassets */,
 				CBB24DB6221E0E4400081D98 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB24DB0221E0E4300081D98 /* ViewController.swift in Sources */,
+				CBB24DC0221E53A300081D98 /* YellowViewController.swift in Sources */,
 				CBB24DAE221E0E4300081D98 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

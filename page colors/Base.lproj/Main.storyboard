@@ -48,9 +48,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mLQ-XU-GKQ">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mLQ-XU-GKQ">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Title" id="k4g-XS-RB2">
                                         <barButtonItem key="leftBarButtonItem" systemItem="done" id="YVx-5f-Yzk">
@@ -61,13 +60,21 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEe-8o-8Ny">
-                                <rect key="frame" x="80" y="313" width="183" height="99"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEe-8o-8Ny">
+                                <rect key="frame" x="80" y="144" width="215" height="443"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="mLQ-XU-GKQ" firstAttribute="leading" secondItem="nfx-92-ha8" secondAttribute="leading" id="L1P-7N-mbj"/>
+                            <constraint firstItem="mLQ-XU-GKQ" firstAttribute="trailing" secondItem="nfx-92-ha8" secondAttribute="trailing" id="SQO-lr-9lY"/>
+                            <constraint firstItem="lEe-8o-8Ny" firstAttribute="leading" secondItem="nfx-92-ha8" secondAttribute="leading" constant="80" id="fNY-Hs-bf2"/>
+                            <constraint firstItem="nfx-92-ha8" firstAttribute="bottom" secondItem="lEe-8o-8Ny" secondAttribute="bottom" constant="80" id="hJq-7C-imi"/>
+                            <constraint firstItem="lEe-8o-8Ny" firstAttribute="top" secondItem="mLQ-XU-GKQ" secondAttribute="bottom" constant="80" id="hzg-us-FcX"/>
+                            <constraint firstItem="nfx-92-ha8" firstAttribute="trailing" secondItem="lEe-8o-8Ny" secondAttribute="trailing" constant="80" id="wUV-WU-29A"/>
+                            <constraint firstItem="mLQ-XU-GKQ" firstAttribute="top" secondItem="nfx-92-ha8" secondAttribute="top" id="z86-jg-dqS"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="nfx-92-ha8"/>
                     </view>
                 </viewController>

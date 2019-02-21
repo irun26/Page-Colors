@@ -62,10 +62,11 @@
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEe-8o-8Ny">
                                 <rect key="frame" x="80" y="144" width="215" height="443"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.96590603760000004" green="0.59024858020000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="mLQ-XU-GKQ" firstAttribute="leading" secondItem="nfx-92-ha8" secondAttribute="leading" id="L1P-7N-mbj"/>
                             <constraint firstItem="mLQ-XU-GKQ" firstAttribute="trailing" secondItem="nfx-92-ha8" secondAttribute="trailing" id="SQO-lr-9lY"/>
